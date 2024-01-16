@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar,
+.contact {
+  background-color: #f5f1ff !important;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.container .row .card .card-body .card-title,
+.container .row .card .card-body .prices .price {
+  font-size: 20pt;
+}
+
+.container .row .card .card-body .description,
+.container .row .card .card-body .prices .old-price,
+footer p {
+  font-size: 16pt;
+}
+
+.container .row .card .card-body .address {
+  font-size: 13pt;
+}
+
+.container .row .card .card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact form .h3 {
+  font-size: 21pt;
+}
+
+.row form .send button {
+  background-color: #8566c7 !important;
+}
+
+footer img {
+  width: 100%;
+  max-width: 100px;
+}
